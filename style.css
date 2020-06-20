@@ -1,7 +1,7 @@
 
-h1, h2, h3, h4, h5, h6, p{
+/*h1, h2, h3, h4, h5, h6, p{
     text-align: center;
-}
+}*/
 
 
 h1{
@@ -17,6 +17,7 @@ p{
   width: 4px;
 }
 
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -24,11 +25,17 @@ p{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #666;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #333;
+  border-radius: 10px;
 }
 
+/*For JAVA*/
+body {
+  padding-top: 3.5rem;
+}
