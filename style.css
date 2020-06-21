@@ -19,7 +19,7 @@ p{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #999;
   border-radius: 10px;
 }
 
@@ -38,4 +38,12 @@ p{
 /*For JAVA*/
 body {
   padding-top: 3.5rem;
+}
+
+.transparent {
+  opacity: 0.0;
+}
+
+.non-transparent {
+  opacity: 1.0;
 }
