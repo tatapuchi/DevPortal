@@ -3,9 +3,8 @@
     text-align: center;
 }*/
 
-
-h1{
-  color: black;
+html, body{
+  background-color: #333;
 }
 
 p{
@@ -21,6 +20,7 @@ p{
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
+  border-radius: 10px;
 }
 
 /* Handle */
